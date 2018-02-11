@@ -1,0 +1,20 @@
+{
+  "name": "h6",
+  "version": "1.0.0",
+  "description": "## install * git clone https://github.com/kingdom0608/H6-server * npm install -g typescript * npm install * tsc --p tsconfig.json * sudo node server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "node-mysql": "^0.4.2",
+    "nodemailer": "^4.4.2",
+    "pbkdf2": "^3.0.14"
+  },
+  "devDependencies": {}
+}
